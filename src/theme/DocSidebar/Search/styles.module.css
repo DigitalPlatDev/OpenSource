@@ -1,0 +1,104 @@
+.searchArea {
+  background: var(--ifm-menu-color-background-active);
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  margin: -0.5rem -0.5rem 0.55rem;
+  padding: 0.65rem 0.75rem 0.6rem;
+  position: sticky;
+  top: -0.5rem;
+  z-index: 2;
+}
+
+.searchBox {
+  align-items: center;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 0.7rem;
+  display: flex;
+  min-height: 2.5rem;
+  padding: 0 0.65rem;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.searchBox:focus-within {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--ifm-color-primary) 18%, transparent);
+}
+
+.searchBox svg {
+  fill: none;
+  flex: 0 0 auto;
+  height: 1rem;
+  margin-right: 0.5rem;
+  stroke: var(--ifm-color-emphasis-600);
+  stroke-linecap: round;
+  stroke-width: 1.8;
+  width: 1rem;
+}
+
+.searchBox input {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: var(--ifm-font-color-base);
+  font: inherit;
+  font-size: 0.86rem;
+  min-width: 0;
+  outline: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.searchBox input::placeholder {
+  color: var(--ifm-color-emphasis-600);
+}
+
+.searchBox input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.clearButton {
+  align-items: center;
+  background: var(--ifm-color-emphasis-200);
+  border: 0;
+  border-radius: 50%;
+  color: var(--ifm-color-emphasis-700);
+  cursor: pointer;
+  display: flex;
+  flex: 0 0 auto;
+  font-size: 1rem;
+  height: 1.25rem;
+  justify-content: center;
+  line-height: 1;
+  margin-left: 0.4rem;
+  padding: 0 0 0.08rem;
+  width: 1.25rem;
+}
+
+.clearButton:hover {
+  background: var(--ifm-color-emphasis-300);
+}
+
+.resultCount {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.7rem;
+  margin-top: 0.35rem;
+  padding-left: 0.15rem;
+}
+
+.emptyState {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.82rem;
+  margin: 1.25rem 0.75rem;
+  text-align: center;
+}
+
+@media (max-width: 996px) {
+  .searchArea {
+    margin: 0 0 0.75rem;
+    padding: 0 0 0.75rem;
+    position: static;
+  }
+}
+.searchRoot {
+  display: contents;
+}

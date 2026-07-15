@@ -1,0 +1,6 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="OpenSource.ngo">
+  <rect width="120" height="120" rx="24" fill="#0F766E" />
+  <circle cx="60" cy="60" r="34" fill="#ffffff" opacity="0.15" />
+  <path d="M40 64c6 8 15 12 20 12s14-4 20-12" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round" />
+  <path d="M42 52c6-8 14-12 18-12s12 4 18 12" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round" />
+</svg>

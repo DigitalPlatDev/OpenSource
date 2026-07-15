@@ -1,0 +1,52 @@
+---
+title: "BSD 2-Clause - Ian Darwin variant"
+sidebar_label: "BSD-2-Clause-Darwin"
+sidebar_position: 75
+spdxId: "BSD-2-Clause-Darwin"
+sourceUrl: "https://spdx.org/licenses/BSD-2-Clause-Darwin.json"
+lastSyncedAt: "2026-07-14T12:14:53.678Z"
+---
+
+<!-- AUTO-GENERATED FILE. DO NOT EDIT. -->
+
+> **Not legal advice.** This license text is provided for informational purposes only.
+
+## License Text
+
+```text
+Copyright (c) Ian F. Darwin 1986, 1987, 1989, 1990, 1991, 1992, 1994, 1995.
+Software written by Ian F. Darwin and others;
+maintained 1994- Christos Zoulas.
+
+This software is not subject to any export provision of the United States
+Department of Commerce, and may be exported to any country or planet.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+   notice immediately at the beginning of the file, without modification,
+   this list of conditions, and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+```
+
+
+## Provenance
+
+- SPDX ID: BSD-2-Clause-Darwin
+- Source: https://spdx.org/licenses/BSD-2-Clause-Darwin.json
+- Last synced: 2026-07-14T12:14:53.678Z

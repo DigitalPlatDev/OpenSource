@@ -1,0 +1,52 @@
+{
+  "name": "digitalplat-opensource",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "generate:badges": "node scripts/generate-license-badges.mjs",
+    "generate:license-data": "node scripts/generate-license-data.mjs",
+    "generate:search-index": "node scripts/generate-search-index.mjs",
+    "generate:assets": "npm run generate:license-data && npm run generate:search-index && npm run generate:badges",
+    "prestart": "npm run generate:assets",
+    "start": "docusaurus start",
+    "prebuild": "npm run generate:assets",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "sync:licenses": "node scripts/sync-licenses.mjs",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.9.2",
+    "@docusaurus/preset-classic": "3.9.2",
+    "@mdx-js/react": "^3.0.0",
+    "clsx": "^2.0.0",
+    "prism-react-renderer": "^2.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "3.9.2",
+    "@docusaurus/types": "3.9.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=20.0"
+  }
+}
