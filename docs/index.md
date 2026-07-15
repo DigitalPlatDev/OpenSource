@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # OpenSource.ngo Licenses Library
 
-OpenSource.ngo is a nonprofit reference library for open source licenses, with clear provenance and an up-to-date public catalog. We define what is open source.
+OpenSource.ngo is a nonprofit reference library for open source licenses, with clear provenance and an up-to-date public catalog. Open source licensing, clearly documented.
 
 ## What you will find here
 

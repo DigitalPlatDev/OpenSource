@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'OpenSource.ngo',
-  tagline: 'We define what is open source.',
+  tagline: 'Open source licensing, clearly documented.',
   favicon: 'img/opensource-ngo-favicon.svg',
 
   future: {
@@ -102,7 +102,7 @@ const config = {
             ],
           },
         ],
-        copyright: `<p class="foundation-statement">DigitalPlat Foundation is an independent U.S. 501(c)(3) public charity supporting Internet Freedom, open infrastructure, digital rights, and access to technology. EIN: 38-4397252.</p><p class="footer-copyright">Copyright © ${new Date().getFullYear()} OpenSource.ngo. We define what is open source.</p>`,
+        copyright: `<p class="foundation-statement">DigitalPlat Foundation is an independent U.S. 501(c)(3) public charity supporting Internet Freedom, open infrastructure, digital rights, and access to technology. EIN: 38-4397252.</p><p class="footer-copyright">Copyright © ${new Date().getFullYear()} OpenSource.ngo. Open source licensing, clearly documented.</p>`,
       },
       prism: {
         theme: prismThemes.github,
