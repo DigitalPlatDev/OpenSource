@@ -1,41 +1,25 @@
-# Website
+# OpenSource.ngo License Library
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Source and static build for https://licenses.opensource.ngo, built with Docusaurus.
 
-## Installation
+## Development
 
-```bash
-yarn
+Use Node.js 22 and npm.
+
+```sh
+npm ci
+npm start
 ```
 
-## Local Development
+License documents are in `docs/`, interface code is in `src/`, and source assets are in `static/`.
 
-```bash
-yarn start
+## Validation and build
+
+```sh
+npm test
+npm run build
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+The build generates license data, the search index, badges, and the static site in `build/` inside this repository. Generated output is ignored by Git; edit the source files instead.
 
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Pushes to `main` run the tests, build the site, and deploy `build/` with `.github/workflows/pages.yml`. GitHub Pages uses GitHub Actions as its publishing source, with the custom domain `licenses.opensource.ngo`. No separate static repository is required.
